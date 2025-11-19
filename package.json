@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Modern portfolio website with CI/CD pipeline",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=8000",
+    "lint:html": "htmlhint index.html",
+    "lint:css": "stylelint styles.css",
+    "lint:js": "eslint script.js"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "ci-cd"
+  ],
+  "author": "Sonu Yadav",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raos0nu/portfolio-website"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
+
